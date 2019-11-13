@@ -1,0 +1,26 @@
+{
+  "name": "zeit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "deploy": "now deploy"
+  },
+  "keywords": [],
+  "author": "Mike Sukmanowsky <mike.sukmanowsky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.2"
+  }
+}
